@@ -1,0 +1,27 @@
+.bg-default{
+    background-color: #eef2f5;
+}
+.container .row .col-4.offset-4 .text-white.fs-5.btn-sm{
+    margin: auto!important;
+}
+.starting-container{
+    margin-top:42.85vh;
+}
+.bg-option{
+    background-color: #eef2f5;
+}
+#collapseInfo{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.position-relative  .card{
+    opacity: 0.8;
+}
+
+
+@media (max-width:768px) {
+    .position-relative  .col-4{
+        transform: translateX(-6%);
+    }
+}

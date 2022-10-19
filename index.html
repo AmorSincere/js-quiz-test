@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Quiz()</title>
+</head>
+<body class="bg-info">
+
+    <div class="position-relative d-flex mt-5  container justify-content-end align-items-center">
+        <i
+        data-bs-toggle="collapse" 
+        href="#collapseInfo" 
+        role="button" 
+        aria-expanded="false" 
+        aria-controls="collapseInfo" 
+        class="bi bi-info-circle text-white" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+              </svg>
+        </i>
+        <div class="collapse col-lg-2 col-md-4 col-4"
+        data-bs-toggle="collapse" 
+        href="#collapseInfo" 
+        role="button" 
+        aria-expanded="false" 
+        aria-controls="collapseInfo"  
+        id="collapseInfo">
+            <div class="card">
+                <div class="card-body">
+                    this is quiz site, no dinamic actions be saved
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="container mb-5 starting-container" id="starting-container">
+        <div class="row">
+            <div class="col-sm-8 col-12 offset-sm-2 col-md-6 offset-md-3">
+                <div class="rules collapse" id="collapseExample">
+                    <div class="card">
+                        <div class="card-header">
+                            Some Rules Of this Quizz
+                        </div>
+                        <div class="card-body">
+                           <p> 1. Lorem, ipsum dolor.</p>
+                           <p>2. Lorem ipsum dolor sit.</p>
+                           <p>3. Lorem, ipsum dolor.</p>
+                           <p>4. Lorem ipsum dolor sit amet.</p>
+                           <p>5. Lorem ipsum dolor sit amet.</p>
+                            
+                            
+                            
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <button type="button" class="btn btn-outline-primary" onclick="closeStartBtn()"  data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">exit quiz</button>
+                            <button type="button" class="btn btn-primary ms-3">
+                                <a href="quizpage.html" class="text-decoration-none text-white">continue</a>
+                                <!-- BIZGA YANGI PAGE GA O'TGANDA JS DAGI RESULTS KK BU BROWSERDA FAVOURITE DA BOR -->
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 d-flex justify-content-center">
+                    <button type="button" 
+                class="btn btn-primary btn-sm fs-5 fw-bold text-white" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#collapseExample" 
+                aria-expanded="false" 
+                id="start-quizz"
+                onclick="closeStartBtn()"
+                aria-controls="collapseExample">Start Quizz</button>
+            </div>
+                </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
